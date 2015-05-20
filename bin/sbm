@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var sbm = require('../src/sbm');
+
+new sbm().start();

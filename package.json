@@ -1,0 +1,27 @@
+{
+  "name": "sbm",
+  "version": "1.0.0",
+  "description": "Git submodule controller",
+  "main": "lib/sbm.js",
+  "bin": {
+    "sbm": "./bin/sbm"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmlbl/sbm.git"
+  },
+  "keywords": [
+    "git",
+    "dependency",
+    "package",
+    "manager"
+  ],
+  "author": "github/tmlbl",
+  "license": "MIT",
+  "dependencies": {
+    "node-git": "0.0.0"
+  }
+}
